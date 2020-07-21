@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--设置别名-->
+    <typeAliases>
+        <!--name:实体类的所在的包名-->
+        <package name="com.ggs.domain"/>
+    </typeAliases>
+<!--    <environments default="development">-->
+<!--        <environment id="development">-->
+<!--            <transactionManager type="JDBC"/>-->
+<!--            <dataSource type="POOLED">-->
+<!--                <property name="driver" value=""/>-->
+<!--                <property name="url" value=""/>-->
+<!--                <property name="username" value=""/>-->
+<!--                <property name="password" value=""/>-->
+<!--            </dataSource>-->
+<!--        </environment>-->
+<!--    </environments>-->
+    <mappers>
+        <!--name:是包名, 这个包中的所有mapper.xml都能加载一次
+            使用package的要求:
+            1.mapper文件名和dao接口必须完全一样, 包括大小写
+            2.mapper文件和dao接口必须在同一目录
+        -->
+        <package name="com.ggs.dao"/>
+    </mappers>
+</configuration>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SSM-Template" />
+        <module name="ReverseProject-Type2" />
+        <module name="ReverseProject-Type1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ch07-ssm" target="1.8" />
+      <module name="ReverseProject-Type1" target="1.8" />
+      <module name="ReverseProject-Type2" target="1.8" />
+      <module name="SSM-Template" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

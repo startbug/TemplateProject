@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ReverseProject-Type1/ReverseProject-Type1.iml" filepath="$PROJECT_DIR$/ReverseProject-Type1/ReverseProject-Type1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReverseProject-Type2/ReverseProject-Type2.iml" filepath="$PROJECT_DIR$/ReverseProject-Type2/ReverseProject-Type2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SSM-Template/SSM-Template.iml" filepath="$PROJECT_DIR$/SSM-Template/SSM-Template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TemplateProject.iml" filepath="$PROJECT_DIR$/.idea/TemplateProject.iml" />
+    </modules>
+  </component>
+</project>
