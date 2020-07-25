@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/mybatis_plus?serverTimezone=GMT%2B8&characterEncoding=UTF-8&userSSL=true&userUnicode=true
+    type: com.zaxxer.hikari.HikariDataSource
+logging:
+  level:
+    com.ggs.blog: debug
+    org.springframework.web: trace
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-value: 1 # 已删除1
+      logic-not-delete-value: 0 # 未删除 0
+      logic-delete-field: deleted
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
